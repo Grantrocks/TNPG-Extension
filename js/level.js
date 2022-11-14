@@ -105,7 +105,7 @@ this.load.image('clouds', 'images/clouds.png');
 	    	const width = this.scale.width
 	const height = this.scale.height
 	const totalWidth = width * 10
-	createAligned(this, totalWidth, 'sky', 0.25)
+	createAligned(this, totalWidth, 'sky', 0.1)
 	createAligned(this, totalWidth, 'clouds', 0.25)
 	createAligned(this, totalWidth, 'sea', 0.5)
     // Place the remaining create function code below
@@ -124,7 +124,7 @@ music.play();
 		this.cameras.main.startFollow(this.player);
 		this.player.score = 0;
 		this.player.level = 0;
-		this.player.coins = 30;
+		this.player.coins = 355;
 		this.player.progress = 0;
 		this.player.progressl = 800;
     		this.player.score = parseInt(localStorage.getItem('score')) || 0;
