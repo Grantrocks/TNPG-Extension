@@ -116,6 +116,7 @@ music.play();
 	this.spawnPlayer = (x, y)=>{
 		this.player = this.physics.add.sprite(x, y, "player", "1");
 		this.player.body.setGravityY(800);
+		console.log(this.player)
 		this.physics.add.collider(this.player, this.platforms);
     this.physics.add.collider(this.player, this.bottom);
     this.physics.add.collider(this.player, this.edgel);
