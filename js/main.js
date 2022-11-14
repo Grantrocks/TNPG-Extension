@@ -21,6 +21,5 @@ function resetScore(){
   localStorage.setItem('level',reset);
   localStorage.setItem('progress',reset);
   localStorage.setItem('progressl',reset);
-  console.log('Player/User Stats Succsessfully Reset');
   alert('Player/User Stats Succsessfully Reset');
 }
