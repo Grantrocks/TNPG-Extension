@@ -7,7 +7,7 @@ var Menu = new Phaser.Class({
     preload: function() {
     },
     create: function() {
-    var button = this.add.text(10, 10, 'Source', {fontFaimly: 'Ubuntu', fill: '#0f0'}).setInteractive();
+    var button = this.add.text(10, 10, 'Donate To The Dev', {fontFaimly: 'Ubuntu', fill: '#0f0'}).setInteractive();
 
     button.on('pointerup', openExternalLink, this);
 
@@ -17,13 +17,13 @@ var Menu = new Phaser.Class({
     this.clickButton = this.add.text(260, 150, 'Original Map', { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("DefaultMap")} )
-    this.clickDevil = this.add.text(270, 250, "Devil", { fontFaimly: 'Ubuntu', fill: '#0f0'})
+    this.clickDevil = this.add.text(270, 150, "Devil", { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("DevilMap")} )
-    this.clickDontFall = this.add.text(220, 280, "Don't Fall!", { fontFaimly: 'Ubuntu', fill: '#0f0'})
+    this.clickDontFall = this.add.text(220, 150, "Don't Fall!", { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("DFMap")} )
-    this.clickDontFall = this.add.text(290, 220, "Going Up", { fontFaimly: 'Ubuntu', fill: '#0f0'})
+    this.clickDontFall = this.add.text(290, 150, "Going Up", { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("GUMap")} )
     },
@@ -32,7 +32,7 @@ var Menu = new Phaser.Class({
 });
 function openExternalLink ()
 {
-    var url = 'https://github.com/Grantrocks/tnpg-extension';
+    var url = 'https://greatdeveloping.itch.io/that-new-platformer-game';
 
     var s = window.open(url, '_blank');
 
