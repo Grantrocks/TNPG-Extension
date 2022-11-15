@@ -14,6 +14,9 @@ const phaserConfig = {
     },
     scene: [Menu, DefaultMap, DevilMap, DFMap, GUMap, Level]
 };
+if(parseInt(localStorage.score)<0){
+    localStorage.score=0;
+}
 const game = new Phaser.Game(phaserConfig);
 var reset = 0; 
 function resetScore(){
