@@ -4,40 +4,40 @@
 			"frame": {
 				"x": 1,
 				"y": 1,
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			},
 			"sourceSize": {
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			}
 		},
 		"1": {
 			"frame": {
 				"x": 27,
 				"y": 1,
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			},
 			"sourceSize": {
-				"w": 20,
-				"h": 20
+				"w": 19,
+				"h": 22
 			}
 		}
 	},
