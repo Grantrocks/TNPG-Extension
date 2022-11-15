@@ -1,4 +1,3 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/grantrocks/tnpg-extension/badge)](https://www.codefactor.io/repository/github/grantrocks/tnpg-extension)
 ![GitHub language count](https://img.shields.io/github/languages/count/Grantrocks/tnpg-extension)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Grantrocks/tnpg-extension)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Grantrocks/tnpg-extension)
