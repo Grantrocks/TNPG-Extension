@@ -12,7 +12,6 @@ var Menu = new Phaser.Class({
     button.on('pointerup', openExternalLink, this);
 
     this.add.text(300, 60, 'That New Platformer Game', { fontFaimly: 'Ubuntu', fill: '#0f0'})
-    this.add.text(300, 90, 'Made By Grant M', { fontFaimly: 'Ubuntu', fill: '#0f0'})
 
     this.clickButton = this.add.text(260, 150, 'Original Map', { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
