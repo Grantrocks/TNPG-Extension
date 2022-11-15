@@ -1,22 +1,10 @@
 {
   "name": "That New Platformer Game",
-  "description": "Choose a map, collect coins, submit your score and be the best player that there is!",
-  "version": "1.8",
-  "manifest_version": 2,
-  "host_permissions" : [
-    "https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"
-  ],
+  "description": "Choose a map, collect coins, and level up. New levels added every now and then. Have fun trying to beat the levels.",
+  "version": "1.9",
+  "manifest_version": 3,
   "action": {
     "default_popup": "main.html",
     "default_icon": "logo.png"
-  },
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "MacCtrl+Shift+F"
-      },
-      "description": "Opens main.html"
-    }
   }
 }
