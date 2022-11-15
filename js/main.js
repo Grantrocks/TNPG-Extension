@@ -12,7 +12,7 @@ const phaserConfig = {
             debug: false
         }
     },
-    scene: [Menu, DefaultMap, DevilMap, DFMap, GUMap, Level]
+    scene: [Menu, DefaultMap, DevilMap, DFMap, GUMap, Level,LongLevel]
 };
 if(parseInt(localStorage.score)<0){
     localStorage.score=0;
