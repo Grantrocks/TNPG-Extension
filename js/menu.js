@@ -28,7 +28,7 @@ var Menu = new Phaser.Class({
     this.clickLevel = this.add.text(310, 180, "New Level", { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("Level")} )
-     this.clickLevel = this.add.text(380, 180, "Long Level", { fontFaimly: 'Ubuntu', fill: '#0f0'})
+     this.clickLevel = this.add.text(430, 180, "Long Level", { fontFaimly: 'Ubuntu', fill: '#0f0'})
      .setInteractive()
      .on('pointerdown', () => {this.scene.start("LongLevel")} )
     },
